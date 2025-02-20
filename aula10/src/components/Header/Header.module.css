@@ -1,0 +1,51 @@
+.header{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 1.3rem;
+}
+
+.header h1{
+    padding: 1rem ;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.header li{
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.header li button{
+    padding: 0.8rem 2rem;
+    background-color: red;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.header li button:hover{
+    background-color: #fff;
+    color: blue;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header a:hover{
+    color: #ccc;
+}
+
+.header a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
