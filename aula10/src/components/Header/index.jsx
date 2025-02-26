@@ -9,13 +9,13 @@ export default function Header(){
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="#">Sobre</a>
+                            <a href="/sobre">Sobre</a>
                         </li>
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="/contato">Contato</a>
                         </li>
                         <li>
                             <button>Login</button>
