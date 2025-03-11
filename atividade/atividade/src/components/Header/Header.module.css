@@ -1,0 +1,16 @@
+header {
+    background-color: #222;
+    text-align: center;
+    padding: 2rem;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem; 
+}
+
+Header > h1 {
+    font-size: 2rem;
+}

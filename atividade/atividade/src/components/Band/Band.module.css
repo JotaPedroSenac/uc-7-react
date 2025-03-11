@@ -1,0 +1,19 @@
+.band {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.band img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.band-info {
+    flex: 1;
+
+}
+.band-info p{
+    text-align: justify;
+}
