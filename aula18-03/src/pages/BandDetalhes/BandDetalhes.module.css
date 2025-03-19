@@ -1,3 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: #111;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
 .botao button{
     background-color: yellow;
+    padding: 1rem 1.9rem;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
 }
+
+.botao button:hover{
+    opacity: 0.8;
+}
+

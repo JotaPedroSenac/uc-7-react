@@ -10,9 +10,10 @@ function Main(){
       <main className={styles.Main}>
         {
           bandas.map((banda, index) => (
-              <section>
-                <Link key={banda.id} to={`band/${banda.id}`}>
-                  <Band key={index} {...banda}/>
+              <section key={banda.slug}>
+                <Band key={index} {...banda}/>
+                <Link  to={`band/${banda.slug}`}>
+                    <p>Clique aqui</p>
                 </Link>
               </section>
           ))
