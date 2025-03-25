@@ -1,0 +1,36 @@
+.dark{
+    background-color: #222;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.light{
+    background-color: #fff;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #007bff;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
