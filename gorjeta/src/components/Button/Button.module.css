@@ -1,0 +1,19 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem;
+}
+
+.button button{
+    padding: 1rem 3rem;
+    border-radius: 0.8rem;
+    background-color: #57CB95;
+    border: none;
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+.button button:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display p{
+    padding: 0.4rem;
+}

@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Button from "../components/Button";
 import InputField from "../components/InputField";
 import ResultDisplay from "../components/ResultDisplay";
+import style from "./TipCalculatorPage.module.css"
 
 
 function TipCalculatorPage() {
@@ -19,21 +20,23 @@ function TipCalculatorPage() {
 
   return (
     <>
-        <h1>Calculadora de Gorjeta</h1>
-        <InputField label="Valor da Conta:"
-        value={valorConta}
-        onChange={(e) => setValorConta(e.target.value)}
-        />
-        <InputField label="Porcentagem da Gorjeta (%):"
-        value={percentualGorjeta}
-        onChange={(e) => setPercentualGorjeta(e.target.value)}
-        />
-        <Button text="Calcular" onClick={calcularGorjeta}/>
-        {
-            resultado && (
-                <ResultDisplay gorjeta={resultado.gorjeta} total={resultado.total}/>
-            )
-        }
+        <main className={style.container}>
+            <h1>Calculadora de Gorjeta</h1>
+            <InputField label="Valor da Conta:"
+            value={valorConta}
+            onChange={(e) => setValorConta(e.target.value)}
+            />
+            <InputField label="Porcentagem da Gorjeta (%):"
+            value={percentualGorjeta}
+            onChange={(e) => setPercentualGorjeta(e.target.value)}
+            />
+            <Button text="Calcular" onClick={calcularGorjeta}/>
+            {
+                resultado && (
+                    <ResultDisplay gorjeta={resultado.gorjeta} total={resultado.total}/>
+                )
+            }
+        </main>
         
     </>
   )
