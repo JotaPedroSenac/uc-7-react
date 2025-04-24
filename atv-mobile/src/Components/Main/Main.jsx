@@ -1,13 +1,13 @@
-import styles from "./Main.module.css"
-import Intro from "../Intro/Intro";
-import Tipos from "../Tipos/Tipos";
-import Noticias from "../Noticias/Noticias";
+// import style from "./Main.module.css";
 import Frameworks from "../Frameworks/Frameworks";
+import Intro from "../Intro/Intro";
+import Noticias from "../Noticias/Noticias";
 import Recursos from "../Recursos/Recursos";
+import Tipos from "../Tipos/Tipos";
 
-function Main() {
+function Main(){
     return(
-        <main className={styles.main}>
+        <main>
             <Intro />
             <Tipos />
             <Noticias />
@@ -15,6 +15,6 @@ function Main() {
             <Recursos />
         </main>
     );
-}
 
-export default Main
+}
+export default Main;

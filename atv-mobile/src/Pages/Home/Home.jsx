@@ -1,16 +1,17 @@
-import styles from "./Home.module.css"
-import Header from "../../Components/Header/Header"
-import Main from "../../Components/Main/Main"
-import Footer from "../../Components/Footer/Footer"
+import styles from "./Home.module.css";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Main from "../../components/Main/Main";
 
 function Home() {
-    return(
-        <>
+    return (
+        <div className={styles.container}>
             <Header />
             <Main />
             <Footer />
-        </>
-    )
+        </div>
+
+    );
 }
 
-export default Home
+export default Home;
